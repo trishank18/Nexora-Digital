@@ -51,7 +51,7 @@ The low-fidelity wireframes are in [wireframes.svg](./wireframes.svg). They desc
 8. **Verification:** production build and route smoke checks — complete; see test log below. Manual browser interaction and Lighthouse audits remain outstanding.
 9. **Documentation:** README, project plan, and wireframe artifact — complete.
 10. **GitHub delivery:** repository and push — pending final publishing step.
-11. **Submission email:** requires a published repository URL and an email integration; draft can be prepared once the URL is known.
+11. **Submission email:** draft prepared at [SUBMISSION_EMAIL.md](./SUBMISSION_EMAIL.md); send from the project owner’s account.
 
 ## 6. Verification log
 
