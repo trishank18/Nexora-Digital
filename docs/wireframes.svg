@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 820" role="img" aria-labelledby="title desc">
+  <title id="title">Nexora Digital low-fidelity responsive wireframes</title>
+  <desc id="desc">Desktop home page, mobile home page, and contact page wireframes showing navigation, hero, content sections, project cards, form, and footer.</desc>
+  <defs><style>
+    text{font-family:Arial,sans-serif;fill:#344054}.label{font-size:13px;font-weight:700}.small{font-size:10px}.tiny{font-size:8px}.frame{fill:#fff;stroke:#aab4c2;stroke-width:1.5}.block{fill:#f1f4f8;stroke:#cbd3dd;stroke-width:1}.accent{fill:#dbeafe;stroke:#8cb3ff;stroke-width:1}.ink{fill:#101828}.line{stroke:#c5ced9;stroke-width:1}.tag{fill:#2563eb}.tagtext{fill:#fff;font-size:10px;font-weight:700}
+  </style></defs>
+  <rect width="1200" height="820" fill="#f8fafc"/>
+  <text x="38" y="40" font-size="22" font-weight="700">Nexora Digital · Low-fidelity wireframes</text>
+  <text x="38" y="61" class="small">Layout hierarchy and responsive behavior · Visual styling is applied in the website UI</text>
+
+  <!-- Desktop home -->
+  <text x="38" y="98" class="label">01 · Home — desktop</text>
+  <rect x="38" y="110" width="710" height="405" rx="8" class="frame"/>
+  <rect x="53" y="124" width="680" height="38" rx="4" class="block"/>
+  <text x="66" y="148" class="small">NEXORA</text><text x="430" y="148" class="tiny">ABOUT · SERVICES · WORK · CAREERS</text><rect x="646" y="134" width="74" height="19" rx="4" class="tag"/><text x="658" y="147" class="tagtext">LET’S TALK</text>
+  <rect x="53" y="174" width="680" height="183" rx="4" class="block"/>
+  <text x="72" y="199" class="tiny">EYEBROW / STUDIO POSITIONING</text><text x="72" y="237" font-size="23" font-weight="700">Make your next</text><text x="72" y="265" font-size="23" font-weight="700">move count.</text><rect x="72" y="285" width="205" height="8" rx="3" class="line"/><rect x="72" y="299" width="164" height="8" rx="3" class="line"/><rect x="72" y="322" width="82" height="23" rx="4" class="tag"/><text x="86" y="337" class="tagtext">START A PROJECT</text><rect x="379" y="187" width="334" height="153" rx="4" class="accent"/><text x="490" y="270" class="small">HERO IMAGE + FLOATING PROOF</text>
+  <rect x="53" y="369" width="680" height="28" rx="4" class="block"/><text x="281" y="387" class="tiny">CLIENT LOGOS / SOCIAL PROOF</text>
+  <text x="58" y="419" class="tiny">SERVICES INTRO</text><rect x="53" y="427" width="212" height="70" rx="4" class="block"/><rect x="276" y="427" width="212" height="70" rx="4" class="block"/><rect x="497" y="427" width="236" height="70" rx="4" class="block"/><text x="91" y="467" class="tiny">SERVICE CARD</text><text x="314" y="467" class="tiny">SERVICE CARD</text><text x="561" y="467" class="tiny">SERVICE CARD</text>
+  <text x="58" y="510" class="tiny">NEXT: STUDIO IMPACT · FEATURED WORK · TESTIMONIALS · CTA · FOOTER</text>
+
+  <!-- Mobile home -->
+  <text x="790" y="98" class="label">02 · Home — mobile</text>
+  <rect x="790" y="110" width="188" height="405" rx="15" class="frame"/>
+  <rect x="801" y="122" width="166" height="29" rx="4" class="block"/><text x="809" y="141" class="tiny">NEXORA</text><text x="945" y="141" class="small">☰</text>
+  <text x="807" y="174" class="tiny">EYEBROW</text><text x="807" y="203" font-size="18" font-weight="700">Make your</text><text x="807" y="225" font-size="18" font-weight="700">next move</text><text x="807" y="247" font-size="18" font-weight="700">count.</text><rect x="807" y="260" width="145" height="6" rx="3" class="line"/><rect x="807" y="271" width="125" height="6" rx="3" class="line"/><rect x="807" y="289" width="130" height="20" rx="4" class="tag"/><text x="826" y="303" class="tagtext">START A PROJECT</text>
+  <rect x="807" y="319" width="153" height="104" rx="4" class="accent"/><text x="831" y="374" class="tiny">STACKED HERO IMAGE</text><rect x="807" y="433" width="153" height="18" rx="4" class="block"/><text x="836" y="446" class="tiny">CLIENT LOGOS</text><rect x="807" y="460" width="153" height="42" rx="4" class="block"/><text x="850" y="485" class="tiny">SERVICE CARD</text>
+
+  <!-- Contact -->
+  <text x="1000" y="98" class="label">03 · Contact</text>
+  <rect x="1000" y="110" width="162" height="405" rx="8" class="frame"/>
+  <rect x="1010" y="122" width="142" height="27" rx="4" class="block"/><text x="1018" y="139" class="tiny">NAV + BRAND</text>
+  <rect x="1010" y="158" width="142" height="85" rx="4" class="block"/><text x="1020" y="182" class="tiny">CONTACT HERO</text><text x="1020" y="200" class="small">Clear promise</text><text x="1020" y="215" class="tiny">Response expectations</text>
+  <rect x="1010" y="252" width="142" height="155" rx="4" class="accent"/><text x="1021" y="272" class="tiny">CONTACT FORM</text><rect x="1021" y="281" width="120" height="18" rx="3" class="frame"/><rect x="1021" y="305" width="120" height="18" rx="3" class="frame"/><rect x="1021" y="329" width="120" height="18" rx="3" class="frame"/><rect x="1021" y="353" width="120" height="27" rx="3" class="frame"/><text x="1031" y="371" class="tiny">MESSAGE</text><rect x="1021" y="386" width="70" height="14" rx="3" class="tag"/>
+  <rect x="1010" y="416" width="142" height="58" rx="4" class="block"/><text x="1035" y="448" class="tiny">CONTACT DETAILS / MAP</text><text x="1012" y="493" class="tiny">FOOTER</text>
+
+  <text x="38" y="566" class="label">Responsive behavior</text>
+  <rect x="38" y="580" width="1124" height="80" rx="6" class="frame"/>
+  <text x="57" y="605" class="small" font-weight="700">Desktop</text><text x="57" y="624" class="small">Two-column hero, three-column service/project grids, inline navigation, generous whitespace.</text>
+  <line x1="590" y1="594" x2="590" y2="647" class="line"/>
+  <text x="612" y="605" class="small" font-weight="700">Mobile / tablet</text><text x="612" y="624" class="small">Menu button, stacked hero and content, single-column cards/forms, touch-sized controls.</text>
+  <text x="38" y="701" class="label">Design tokens</text>
+  <rect x="38" y="715" width="28" height="22" rx="4" fill="#101828"/><text x="73" y="730" class="tiny">#101828</text><rect x="143" y="715" width="28" height="22" rx="4" fill="#2563eb"/><text x="178" y="730" class="tiny">#2563EB</text><rect x="252" y="715" width="28" height="22" rx="4" fill="#7c3aed"/><text x="287" y="730" class="tiny">#7C3AED</text><rect x="364" y="715" width="28" height="22" rx="4" fill="#f8fafc" stroke="#cbd3dd"/><text x="399" y="730" class="tiny">#F8FAFC</text><text x="510" y="730" class="small">Plus Jakarta Sans (headings) · DM Sans (body)</text>
+  <text x="38" y="785" class="tiny">Nexora Digital · planning artifact · illustrative wireframe, not a production screenshot</text>
+</svg>

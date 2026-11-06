@@ -1,0 +1,7 @@
+import { useState } from 'react'
+import { ArrowRight } from 'lucide-react'
+import { Link } from 'react-router-dom'
+import { projects } from '../data/projects.js'
+import { CTASection, ProjectCard } from '../components/Shared.jsx'
+const categories = ['All work', 'Product', 'Brand', 'Web']
+export function Portfolio() { const [filter, setFilter] = useState('All work'); const shown = filter === 'All work' ? projects : projects.filter(p => p.category === filter); return <><section className="work-hero"><div className="container"><span className="eyebrow">A FEW GOOD THINGS</span><h1>Our work<br/>speaks <em>volumes.</em></h1><p>Different challenges, shared ambition. Here are a few partnerships we’re proud to be part of.</p><div className="work-hero-note"><span>✳</span><small>Strategy-led. Human-first. Built to last.</small></div></div></section><section className="section portfolio-section"><div className="container"><div className="filter-bar" role="group" aria-label="Filter projects">{categories.map(c=><button key={c} onClick={()=>setFilter(c)} className={filter===c?'selected':''} aria-pressed={filter===c}>{c}</button>)}<span>{shown.length} projects</span></div><div className="project-grid portfolio-grid">{shown.map(p=><ProjectCard project={p} key={p.title}/>)}</div><div className="portfolio-note"><span>Have a good challenge?</span><Link className="text-link" to="/contact">Let’s make it happen <ArrowRight size={16}/></Link></div></div></section><CTASection/></> }
